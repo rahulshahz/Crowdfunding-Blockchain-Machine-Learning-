@@ -15,7 +15,7 @@ def about():
     movies = pd.DataFrame(data["dataset"])
     movies['index'] = range(1, len(movies) + 1)
     
-    selfeatures=['title','description','category']
+    selfeatures=['category','category','category','title','description']
     combined_features=''
     for feature in selfeatures:
         movies[feature]=movies[feature].fillna('')

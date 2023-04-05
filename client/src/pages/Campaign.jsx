@@ -39,7 +39,7 @@ const Campaign = () => {
     
     setCampaigns(data);
     console.log(data);
-    const res=await fetch('https://crowdfunding-o9da.onrender.com/',{
+    const res=await fetch('https://localhost:8090/',{
       method:'POST',
       headers:{
         'Content-Type':'application/json',
