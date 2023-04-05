@@ -220,7 +220,7 @@ const Campaign = () => {
                   )) : (<p className='font-epilogue font-normal text-[16px] text-[#808191] leading-[26px] text-justify'>No Commentors yet. Be the first One!</p>)
                 }
 
-              {totalSentimentScore/commentors.length}
+              
             </div>
           </div>
 
